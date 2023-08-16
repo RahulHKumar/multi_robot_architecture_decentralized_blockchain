@@ -1,0 +1,8 @@
+<launch>
+  <!-- <node pkg="security_decentralize_pkg" type="client_1.py" name="client_1"/>
+  <node pkg="security_decentralize_pkg" type="client_2.py" name="client_2"/>
+  <node pkg="security_decentralize_pkg" type="client_3.py" name="client_3"/>
+  <node pkg="security_decentralize_pkg" type="sim_plot.py" name="sim_plot"/> -->
+  <node pkg="security_decentralize_pkg" type="nmpc_1.py" name="nmpc_1"/>
+  <node pkg="security_decentralize_pkg" type="nmpc_2.py" name="nmpc_2"/>
+</launch>
